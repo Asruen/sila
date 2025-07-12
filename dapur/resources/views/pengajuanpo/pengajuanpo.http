@@ -1,0 +1,14 @@
+### GET Semua Data Pengajuan PO
+GET http://127.0.0.1:8000/api/pengajuanpo
+Content-Type: application/json
+
+### POST Tambah Pengajuan PO
+POST http://127.0.0.1:8000/api/pengajuanpo/store
+Content-Type: application/json
+
+{
+  "nomor_pengajuan": "PO-7888",
+  "total_pengajuan": 8000000,
+  "status": "pending",
+  "keterangan": "Acc"
+}

@@ -1,0 +1,29 @@
+POST http://localhost:8000/api/hasil-ompreng
+Accept: application/json
+Content-Type: application/json
+
+
+{
+  "data": [
+    {
+      "nomor_dapur": "D125",
+      "tanggal_update": "2025-07-10",
+      "line1": 5,
+      "line2": 5,
+      "line3": 5,
+      "line4": 5,
+      "line5": 5,
+      "line6": 5
+    },
+    {
+      "nomor_dapur": "D126",
+      "tanggal_update": "2025-07-10",
+      "line1": 10,
+      "line2": 10,
+      "line3": 10,
+      "line4": 10,
+      "line5": 10,
+      "line6": 10
+    }
+  ]
+}

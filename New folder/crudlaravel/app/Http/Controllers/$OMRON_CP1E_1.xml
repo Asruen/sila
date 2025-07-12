@@ -1,0 +1,24 @@
+$OMRON_CP1E_1.P1_hot_water_14_10 = 0;
+		$OMRON_CP1E_1.drying_p1_18_07 = 0;
+		
+		$OMRON_CP1E_1.P1_hot_water_14_10 = 0;
+		$OMRON_CP1E_1.P1_rinsing_14_9 = 0;
+		$OMRON_CP1E_1.P1_enzyme_14_8 = 0;
+		$OMRON_CP1E_1.P2_dry_14_15 = 0;
+		$OMRON_CP1E_1.P2_L_wash_14_14 = 0;
+		$OMRON_CP1E_1.P2_rinsing_2_14_13 = 0;
+		$OMRON_CP1E_1.P2_rinsing_14_12 = 0;
+		$OMRON_CP1E_1.P2_enzyme_14_11 = 0;
+		$OMRON_CP1E_1.P3_dry_15_4 = 0;
+		$OMRON_CP1E_1.P3_L_wash_15_3 = 0;
+		$OMRON_CP1E_1.P3_rinsing_15_1 = 0;
+		$OMRON_CP1E_1.P4_dry_15_10 = 0;
+		$OMRON_CP1E_1.P4_L_wash_15_9 = 0;
+		$OMRON_CP1E_1.P4_s_wash_15_7 = 0;
+		$OMRON_CP1E_1.P4_enzyme_15_5 = 0;
+		$OMRON_CP1E_1.P5_dry_15_15 = 0;
+		$OMRON_CP1E_1.P5_L_wash_15_14 = 0;
+		$OMRON_CP1E_1.P5_hot_water_15_13 = 0;
+		$OMRON_CP1E_1.P5_rinsing_15_12 = 0;
+		$OMRON_CP1E_1.P5_enzyme_15_11 = 0;
+		$OMRON_CP1E_1.P6_dry_16_0 = 0;

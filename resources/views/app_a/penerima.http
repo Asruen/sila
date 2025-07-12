@@ -1,0 +1,11 @@
+### Request Penerima Makan Hari Ini
+//POST http://192.168.149.42:8000/api/penerima-makan-gratis
+POST http://localhost:8000/api/penerima-makan-gratis
+Content-Type: application/json
+
+{
+    "nomor_dapur": "D126",
+    "tanggal": "2025-03-13",
+    "jumlah_tk_sd_kls3": "645",
+    "jumlah_sd_kls4_sma": "8343"
+}

@@ -1,0 +1,11 @@
+### 1. Kirim Request ke API untuk Mendapatkan Menu Hari Ini
+POST http://127.0.0.1:8000/api/menu-hari-ini
+Content-Type: application/json
+
+{
+    "nomor_dapur": "D123",
+    "tanggal": "2025-03-12"
+}
+
+### cek api
+GET http://127.0.0.1:8000/api/menu-hari-ini

@@ -1,0 +1,29 @@
+//POST http://10.8.0.14:8001/api/penerimaan-bahan
+POST http://localhost:8000/api/penerimaan-bahan
+Accept: application/json
+Content-Type: application/json
+
+{
+  "data": [
+    {
+      "nomor_dapur": "D126",
+      "tanggal": "2025-07-09",
+      "nama_bahan": "Air",
+      "jumlah": "50",
+      "jumlah_datang": "70",
+      "tanggal_jam" : "2025-07-09",
+      "satuan": "1",
+      "nama_supplier": "Air Gunung"
+    },
+    {
+      "nomor_dapur": "D125",
+      "tanggal": "2025-01-09",
+      "nama_bahan": "Beras",
+      "jumlah": "70",
+      "tanggal_jam" : "2025-07-09",
+      "jumlah_datang": "100",
+      "satuan": "1",
+      "nama_supplier": "UD Aneka"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+### 1. Kirim Request ke API untuk Mendapatkan Menu Hari Ini
+POST http://192.168.149.42:8001/api/menu-hari-ini
+Content-Type: application/json
+
+{
+    "nomor_dapur": "D126",
+    "tanggal": "2025-05-8",
+    "karbohidrat": "Nasi",
+    "protein": "Ayam Bakar Mentega",
+    "sayur": "Capcay goreng",
+    "buah": "Pepaya goreng",
+    "susu": "Susu coklat"
+}
+
+
+### cek api
+GET http://127.0.0.1:8000/api/menu-hari-ini

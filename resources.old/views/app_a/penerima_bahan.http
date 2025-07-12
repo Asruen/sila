@@ -1,0 +1,26 @@
+// POST http://10.8.0.14:8001/api/penerimaan-bahan
+POST http://127.0.0.1:8000/api/penerimaan-bahan
+
+Accept: application/json
+Content-Type: application/json
+
+{
+  "data": [
+    {
+      "nomor_dapur": "D126",
+      "tanggal": "2025-03-12",
+      "nama_bahan": "Airq",
+      "jumlah": "786",
+      "satuan": "1",
+      "nama_supplier": "Air Gunung"
+    },
+    {
+      "nomor_dapur": "D126",
+      "tanggal": "2025-03-12",
+      "nama_bahan": "minyak",
+      "jumlah": "22",
+      "satuan": "1",
+      "nama_supplier": "Air Gunung"
+    }
+  ]
+}
