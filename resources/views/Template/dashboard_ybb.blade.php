@@ -258,8 +258,8 @@ async function fetchAllMenus() {
         if (Array.isArray(menuData) && menuData.length > 0) {
             currentMenuIndex = 0;
             displayAndFetchData(menuData[currentMenuIndex]);
-            startTabSwitching(); // ✅ Mulai otomatis pindah tab
-            rotateMenu(); // ✅ Mulai rotasi data dapur
+            startTabSwitching(); // Mulai otomatis pindah tab
+            rotateMenu(); // Mulai rotasi data dapur
         } else {
             console.error("Data menu tidak ditemukan untuk dapur.");
         }
@@ -282,7 +282,7 @@ function rotateMenu() {
 
         displayAndFetchData(menuData[currentMenuIndex]);
         rotateMenu(); // Rekursif
-    }, 20000); // Ganti data dapur tiap 20 detik
+    }, 10000); // Ganti data dapur tiap 10 detik
 }
 
 

@@ -37,28 +37,28 @@ class OmprengController extends Controller
 
     public function store(Request $request)
 {
-    $request->validate([
-        'data' => 'required|array',
-        'data.*.nomor_dapur' => 'required|string|max:255',
-        'data.*.tanggal_update' => 'required|date_format:Y-m-d',
-        'data.*.line1' => 'nullable|integer|min:0',
-        'data.*.line2' => 'nullable|integer|min:0',
-        'data.*.line3' => 'nullable|integer|min:0',
-        'data.*.line4' => 'nullable|integer|min:0',
-        'data.*.line5' => 'nullable|integer|min:0',
-        'data.*.line6' => 'nullable|integer|min:0',
-    ]);
+        $request->validate([
+            'data' => 'required|array',
+            'data.*.nomor_dapur' => 'required|string|max:255',
+            'data.*.tanggal_update' => 'required|date_format:Y-m-d', // Lebih spesifik untuk format tanggal
+            'data.*.line1' => 'nullable|integer|min:0',              // Asumsi bisa kosong dan tidak boleh negatif
+            'data.*.line2' => 'nullable|integer|min:0',
+            'data.*.line3' => 'nullable|integer|min:0',
+            'data.*.line4' => 'nullable|integer|min:0',
+            'data.*.line5' => 'nullable|integer|min:0',
+            'data.*.line6' => 'nullable|integer|min:0',
+        ]);
 
-    $inserted = [];
+        $inserted = [];
 
-    foreach ($request->data as $item) {
-        $inserted[] = Ompreng::create($item);
-    }
+        foreach ($request->data as $item) {
+            $inserted[] = Ompreng::create($item);
+            }
 
-    return response()->json([
-        'message' => 'Semua data berhasil disimpan',
-        'data' => $inserted
-    ]);
+        return response()->json([
+            'message' => 'Semua data berhasil disimpan',
+            'data' => $inserted
+            ]);
 }
 
  
@@ -66,6 +66,6 @@ class OmprengController extends Controller
     {
         // Logika untuk mengambil dan mengembalikan data menu
         $penerimaompreng = DB::table('tb_penerima_ompreng')->get(); // Ambil semua data menu
-        return response()->json($penerimaompreng);
+            return response()->json($penerimaompreng);
     }
 }
