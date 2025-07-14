@@ -8,8 +8,8 @@ Content-Type: application/json
     {
       "nomor_dapur": "D125",
       "tanggal_update": "2025-07-10",
-      "line1": 5,
-      "line2": 5,
+      "line1": 7,
+      "line2": 8,
       "line3": 5,
       "line4": 5,
       "line5": 5,
@@ -17,9 +17,9 @@ Content-Type: application/json
     },
     {
       "nomor_dapur": "D126",
-      "tanggal_update": "2025-07-10",
-      "line1": 10,
-      "line2": 10,
+      "tanggal_update": "2025-07-14",
+      "line1": 15,
+      "line2": 15,
       "line3": 10,
       "line4": 10,
       "line5": 10,
